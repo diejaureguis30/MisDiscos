@@ -7,12 +7,25 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-card style="background-color: #7B0D1E">
-
-    <ion-item>
-        <img (click)="ClickEm()" src="../assets/curtain call.jpg">
-    </ion-item>  
   
+  <ion-card style="background-color:#1B03A3">
+    <ion-row>
+    <ion-col>
+            <img (click)="ClickEm()" style="scale: 0.5 cm" src="../assets/curtain call.jpg">
+             
+            
+    </ion-col>
+    <ion-col>
+        <ion-card-content>
+            <p style="font-weight: bold; color: beige; font-size: 12 cm" (click)="Clickbio()">Curtain Call</p>
+            <p style="font-weight: bold; color: beige">Eminem</p>
+            <p style="color: beige"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star-half"></ion-icon></p>
+
+          </ion-card-content>
+    </ion-col>
+  </ion-row>
+        
+         
   </ion-card>
   
 </ion-content>
