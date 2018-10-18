@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { AlbumPage } from '../pages/album/album';
 import { BioPage } from '../pages/bio/bio';
 import { SoudtrackPage } from '../pages/soudtrack/soudtrack';
+import { RatingPage } from '../pages/rating/rating';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SoudtrackPage } from '../pages/soudtrack/soudtrack';
     HomePage,
     AlbumPage,
     BioPage,
-    SoudtrackPage
+    SoudtrackPage,
+    RatingPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { SoudtrackPage } from '../pages/soudtrack/soudtrack';
     HomePage,
     AlbumPage,
     BioPage,
-    SoudtrackPage
+    SoudtrackPage,
+    RatingPage
   ],
   providers: [
     StatusBar,

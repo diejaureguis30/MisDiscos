@@ -1,8 +1,9 @@
-import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { Component, ModuleWithComponentFactories } from '@angular/core';
+import { NavController, TabHighlight } from 'ionic-angular';
 import { AlbumPage } from '../album/album';
 import { BioPage } from '../bio/bio';
 import { SoudtrackPage } from '../soudtrack/soudtrack';
+import { RatingPage } from '../rating/rating';
 
 @Component({
   selector: 'page-home',
@@ -12,6 +13,8 @@ export class HomePage {
   alb=AlbumPage;
   Biography=BioPage;
   disc=SoudtrackPage;
+  star=RatingPage;
+
 
   constructor(public navCtrl: NavController) {
 
@@ -25,6 +28,9 @@ export class HomePage {
   }
   Clickdisco(){
     this.navCtrl.push(this.disc);
+  }
+  Clickstar(){
+    this.navCtrl.push(this.star);
   }
 
 }
