@@ -8,13 +8,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { AlbumPage } from '../pages/album/album';
 import { BioPage } from '../pages/bio/bio';
+import { SoudtrackPage } from '../pages/soudtrack/soudtrack';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     AlbumPage,
-    BioPage
+    BioPage,
+    SoudtrackPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { BioPage } from '../pages/bio/bio';
     MyApp,
     HomePage,
     AlbumPage,
-    BioPage
+    BioPage,
+    SoudtrackPage
   ],
   providers: [
     StatusBar,
