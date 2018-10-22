@@ -4,6 +4,10 @@ import { AlbumPage } from '../album/album';
 import { BioPage } from '../bio/bio';
 import { SoudtrackPage } from '../soudtrack/soudtrack';
 import { RatingPage } from '../rating/rating';
+import { Disco2Page } from '../disco2/disco2';
+import { Bio2Page } from '../bio2/bio2';
+import { RatingsPage } from '../ratings/ratings';
+import { Soundtrack2Page } from '../soundtrack2/soundtrack2';
 
 @Component({
   selector: 'page-home',
@@ -14,6 +18,10 @@ export class HomePage {
   Biography=BioPage;
   disc=SoudtrackPage;
   star=RatingPage;
+  sound2=Soundtrack2Page;
+  disc2=Disco2Page;
+  biography2=Bio2Page;
+  rat2=RatingsPage;
 
 
   constructor(public navCtrl: NavController) {
@@ -31,6 +39,18 @@ export class HomePage {
   }
   Clickstar(){
     this.navCtrl.push(this.star);
+  }
+  ClickKill(){
+    this.navCtrl.push(this.disc2);
+  }
+  Clickdisco2(){
+    this.navCtrl.push(this.sound2);
+  }
+  Clickbio2(){
+    this.navCtrl.push(this.biography2);
+  }
+  ClickStar2(){
+    this.navCtrl.push(this.rat2)
   }
 
 }
