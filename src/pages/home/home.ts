@@ -49,7 +49,7 @@ export class HomePage {
   Clickbio2(){
     this.navCtrl.push(this.biography2);
   }
-  ClickStar2(){
+  Clickstar2(){
     this.navCtrl.push(this.rat2)
   }
 
