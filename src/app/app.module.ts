@@ -18,6 +18,10 @@ import { Disco3Page } from '../pages/disco3/disco3';
 import { Bio3Page } from '../pages/bio3/bio3';
 import { Soundtarck3Page } from '../pages/soundtarck3/soundtarck3';
 import { Album3Page } from '../pages/album3/album3';
+import { Soundtrack4Page } from '../pages/soundtrack4/soundtrack4';
+import { Bio4Page } from '../pages/bio4/bio4';
+import { Album4Page } from '../pages/album4/album4';
+import { Ratings4Page } from '../pages/ratings4/ratings4';
 
 @NgModule({
   declarations: [
@@ -34,7 +38,11 @@ import { Album3Page } from '../pages/album3/album3';
     Disco3Page,
     Bio3Page,
     Soundtarck3Page,
-    Album3Page
+    Album3Page,
+    Soundtrack4Page,
+    Bio4Page,
+    Album4Page,
+    Ratings4Page
   ],
   imports: [
     BrowserModule,
@@ -55,7 +63,11 @@ import { Album3Page } from '../pages/album3/album3';
     Soundtarck3Page,
     Album3Page,
     Disco3Page,
-    Bio3Page
+    Bio3Page,
+    Soundtrack4Page,
+    Bio4Page,
+    Album4Page,
+    Ratings4Page
   ],
   providers: [
     StatusBar,
