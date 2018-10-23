@@ -1,14 +1,90 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Mis Discos
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  
+  <ion-card style="background-color:#1B03A3">
+    <ion-row>
+    <ion-col>
+            <img (click)="ClickEm()" style="scale: 0.5 cm" src="../assets/curtain call.jpg">
+             
+            
+    </ion-col>
+    <ion-col>
+        <ion-card-content>
+            <h1 style="font-weight: bold; color: beige; font-size: 12 cm" (click)="Clickdisco()">Curtain Call</h1>
+            <h1 style="font-weight: bold; color: beige" (click)="Clickbio()">Eminem</h1>
+            <p style="color: beige" (click)="Clickstar()"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star-half"></ion-icon></p>
+
+          </ion-card-content>
+    </ion-col>
+  </ion-row>
+        
+         
+  </ion-card>
+  <ion-card style="background-color:#A71D31">
+      <ion-row>
+      <ion-col>
+              <img (click)="ClickKill()" style="scale: 0.5 cm" src="../assets/hot fuss.jpg">
+               
+              
+      </ion-col>
+      <ion-col>
+          <ion-card-content>
+              <h1 style="font-weight: bold; color: beige; font-size: 12 cm" (click)="Clickdisco2()">Hot Fuss</h1>
+              <h1 style="font-weight: bold; color: beige" (click)="Clickbio2()">The Killers</h1>
+              <p style="color: beige" (click)="Clickstar2()"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></p>
+  
+            </ion-card-content>
+      </ion-col>
+    </ion-row>
+          
+           
+    
+
+  </ion-card>
+  <ion-card style="background-color: #112F77">
+      <ion-row>
+      <ion-col>
+              <img (click)="ClickU2()" style="scale: 0.5 cm" src="../assets/songs of experience.jpg">
+               
+              
+      </ion-col>
+      <ion-col>
+          <ion-card-content>
+              <h1 style="font-weight: bold; color: beige; font-size: 12 cm" (click)="Clickdisco3()">Songs of experience</h1>
+              <h1 style="font-weight: bold; color: beige" (click)="Clickbio3()">U2</h1>
+              <p style="color: beige" (click)="Clickstar3()"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="half-star"></ion-icon></p>
+  
+            </ion-card-content>
+      </ion-col>
+    </ion-row>
+          
+           
+    </ion-card>
+    <ion-card style="background-color: #772266">
+      <ion-row>
+      <ion-col>
+              <img (click)="Clicklady()" style="scale: 0.5 cm" src="../assets/joanne.jpg">
+               
+              
+      </ion-col>
+      <ion-col>
+          <ion-card-content>
+              <h1 style="font-weight: bold; color: beige; font-size: 12 cm" (click)="Clickdisco4()">Joanne</h1>
+              <h1 style="font-weight: bold; color: beige" (click)="Clickbio4()">Lady Gaga</h1>
+              <p style="color: beige" (click)="Clickstar4()"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="half-star"></ion-icon></p>
+  
+            </ion-card-content>
+      </ion-col>
+    </ion-row>
+          
+           
+    </ion-card>
+  
 </ion-content>
