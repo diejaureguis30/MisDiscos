@@ -14,6 +14,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'soundtarck3.html',
 })
 export class Soundtarck3Page {
+  Canciones3= ['Love is all we have left', 'Lights of home',"You're the best thing about me", 'Get out of your own way', 'American Soul', 'Summer of love','Red flag day','The showman (little more better)', 'Th elittle things that you give away', 'Landlady', 'The Blackout', "Love is biger than anything in it's way", "13 (There's a light)", 'Ordinary love (Extraordinary mix)', 'Book of your heart', "Light's of home (st peter’s string version)"] ;
+
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
