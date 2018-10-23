@@ -12,6 +12,10 @@ import { Album3Page } from '../album3/album3';
 import { Bio3Page } from '../bio3/bio3';
 import { Disco3Page } from '../disco3/disco3';
 import { Soundtarck3Page } from '../soundtarck3/soundtarck3';
+import { Album4Page } from '../album4/album4';
+import { Bio4Page } from '../bio4/bio4';
+import { Soundtrack4Page } from '../soundtrack4/soundtrack4';
+import { Ratings4Page } from '../ratings4/ratings4';
 
 @Component({
   selector: 'page-home',
@@ -30,6 +34,10 @@ export class HomePage {
   biography3=Bio3Page;
   disc3=Disco3Page;
   sound3=Soundtarck3Page;
+  alb4=Album4Page;
+  biography4=Bio4Page;
+  sound4=Soundtrack4Page;
+  disc4=Ratings4Page;
 
 
   constructor(public navCtrl: NavController) {
@@ -72,5 +80,18 @@ export class HomePage {
   Clickstar3(){
     this.navCtrl.push(this.disc3)
   }
+  Clicklady(){
+    this.navCtrl.push(this.alb4)
+  }
+  Clickdisco4(){
+    this.navCtrl.push(this.sound4)
+  }
+  Clickbio4(){
+    this.navCtrl.push(this.biography4)
+  }
+  Clickstar4(){
+    this.navCtrl.push(this.disc4)
+  }
+
 
 }
