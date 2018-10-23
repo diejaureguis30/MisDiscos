@@ -14,6 +14,10 @@ import { Disco2Page } from '../pages/disco2/disco2';
 import { RatingsPage } from '../pages/ratings/ratings';
 import { Bio2Page } from '../pages/bio2/bio2';
 import { Soundtrack2Page } from '../pages/soundtrack2/soundtrack2';
+import { Disco3Page } from '../pages/disco3/disco3';
+import { Bio3Page } from '../pages/bio3/bio3';
+import { Soundtarck3Page } from '../pages/soundtarck3/soundtarck3';
+import { Album3Page } from '../pages/album3/album3';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,11 @@ import { Soundtrack2Page } from '../pages/soundtrack2/soundtrack2';
     Disco2Page,
     RatingsPage,
     Bio2Page,
-    Soundtrack2Page
+    Soundtrack2Page,
+    Disco3Page,
+    Bio3Page,
+    Soundtarck3Page,
+    Album3Page
   ],
   imports: [
     BrowserModule,
@@ -43,7 +51,11 @@ import { Soundtrack2Page } from '../pages/soundtrack2/soundtrack2';
     Disco2Page,
     RatingsPage,
     Bio2Page,
-    Soundtrack2Page
+    Soundtrack2Page,
+    Soundtarck3Page,
+    Album3Page,
+    Disco3Page,
+    Bio3Page
   ],
   providers: [
     StatusBar,
