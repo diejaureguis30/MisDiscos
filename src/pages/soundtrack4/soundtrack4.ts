@@ -14,6 +14,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'soundtrack4.html',
 })
 export class Soundtrack4Page {
+  Canciones4= ['Diamond-heart','A-Yo', 'Joanne','John Wayne',"Dancin' in circles",'Perfect Illusion','Million reasons', "Siner's pray", 'Come to Mama', 'Hey Girl', 'Angel Down', 'Gingio girls', 'Just another day','Angel down (work tape)'];
+
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
